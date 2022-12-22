@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500&display=swap');
+
+body{
+    background-color: #ffefe0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-image{
+    background-image: url('../images/back.jpg');
+    height: 60vh;
+    background-position: center;
+}
+.cover{
+    background-image:  linear-gradient(rgba(0,0,0,0.8), rgba(255,255,255,0));
+    height: 60vh;
+}
+/*---------------Navbar media queries-----------*/
+@media screen and (min-width:400px){
+    .big-menu{
+        display: block;
+    }
+    .small-screen{
+        display: none;
+    }
+}
+@media screen and (max-width:819Px){
+    .small-screen{
+        display: block;
+    }
+    .big-menu{
+        display: none;
+    }
+}
+.nav-bg{
+    background-color: #286C56;
+}
+.navbar .navbar-brand img{
+    height: 60px;
+    width: auto;
+}
+
+.navbar .nav-item .nav-link{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+.nav-item .nav-link:hover{
+    color: aqua;
+}
+.small-nav{
+    color: white;
+    background: none;
+    border: none;
+   
+}
+.small-menu .nav-item .nav-link{
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.small-menu .nav-item .nav-link:hover{
+    color: #286C56;
+}
+.call-to-action{
+    position: relative;
+    height: 100%;
+    display: flex; /*flexbox*/
+    justify-content: center;
+}
+.call-to-action h1{
+    
+   
+    color:white;
+    font-weight: 200;
+}
+
+footer{
+    background-color:#286C56 ;
+    color: white;
+}
+
+footer .nav .nav-item .nav-link{
+    color: white;
+}
+
+footer .nav .nav-item .nav-link:hover{
+    color: aqua;
+}
+
+/*-----Contact page----*/
+.contact-form{
+    width: 70%;
+}
